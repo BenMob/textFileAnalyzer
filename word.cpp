@@ -1,12 +1,9 @@
 /***************************************************************                                                                                  
-Benjamin Ombeni                                                                                                                                                           
-05/08/2019                                                                                                                             
-Word App with C-Strings                                                                                                                       
+By Benjamin Ombeni                                                                                                                                                                                     
                                                                                                                                        
-This program will read a text file of type (.dat)
-and will allow the user to see for each letter of the alphabet,                                                                                       
-the longest and shortest words starting with that                                                                                      
-letter, as well as the frequency of it.                                                                                                
+This app analyzes a text file with a (.dat) extension. 
+At run time, the user will have a choice between viewing info
+for one letter of the alphabet (A - Z) or view info for all letters of the alphabet.                                                                                               
 ***************************************************************/
 #include <iostream>  //for cin & cout                                                                                                  
 #include <fstream> //for files                                                                                                         
